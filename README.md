@@ -92,7 +92,7 @@ Muy útil para reproducir el entorno de ejecución. **Importante**:Permite expor
 
 **Paquetes requeridos para las prácticas**
 
-Para instalar los paquetes requeridos para las prácticas es necesario ejecutar el comando (es necesario sustituir los *nombre_paquete* por los paquetes concretos): 
+Para instalar los paquetes requeridos para las prácticas es necesario ejecutar el siguiente comando (sustituid los *nombre_paquete* por los paquetes concretos): 
 
 <code>conda install nombre_paquete1 nombre_paquete2 ... nombre_paquete_n</code>
 
@@ -104,3 +104,4 @@ Los paquetes requeridos para las prácticas son:
 - kagglehub
 - rich
 - seaborn
+- numpy
