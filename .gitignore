@@ -2,3 +2,5 @@
 *SOLVED.ipynb
 __old__/
 *pyc
+*.csv
+!datasets/*.csv
