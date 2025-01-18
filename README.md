@@ -105,3 +105,4 @@ Los paquetes requeridos para las prácticas son:
 - rich
 - seaborn
 - numpy
+- ipympl
