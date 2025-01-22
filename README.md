@@ -106,3 +106,4 @@ Los paquetes requeridos para las prácticas son:
 - seaborn
 - numpy
 - ipympl
+- ipywidgets
