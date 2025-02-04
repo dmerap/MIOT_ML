@@ -66,6 +66,7 @@ def mk_cost_lines(x,y,w,b, ax):
 def plt_intuition(x_train, y_train, fixed_b):
 
     w_range = np.array([200-200,200+200])
+    w_range = np.array([200-500,200+200])  # añadido por agil
     tmp_b = fixed_b
 
     w_array = np.arange(*w_range, 5)
@@ -362,6 +363,7 @@ def plt_gradients(x_train,y_train, f_compute_cost, f_compute_gradient, fixed_b=1
     fix_b = fixed_b
     w_array = np.linspace(-100, 500, 50)
     w_array = np.linspace(0, 400, 50)
+    w_array = np.linspace(-250, 350, 50) # añadido por agil
     cost = np.zeros_like(w_array)
 
     for i in range(len(w_array)):
