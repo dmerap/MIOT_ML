@@ -4,3 +4,4 @@ __old__/
 *pyc
 *.csv
 !datasets/*.csv
+correcciones/
