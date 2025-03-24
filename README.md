@@ -107,3 +107,16 @@ Los paquetes requeridos para las prácticas son:
 - numpy
 - ipympl
 - ipywidgets
+- gymnasium
+
+**Nota**: la versión del paquete de *gymnasium* disponible en el repositorio de conda es algo antigua. Para descargar la última versión podéis emplear `pip`. Si ejecutáis `pip` directamente estaréis instalando el paquete a nivel de sistema, lo que queremos evitar. Para usar `pip`dentro del entorno virtual, es necesario ejecutar un comando `pip` local que se instala, en una subcarpeta, al crear el entorno:
+<code>
+conda activate miot_ml 
+/home/user/anaconda/envs/virtual_env_name/bin/pip install gymnasium</code>
+
+La anterior es una ruta genérica. Para encontrar la ruta concreta en la que vuestro entorno se ha instalado, podéis ejecutar el siguiente comando bash (linux)
+<code>
+conda activate miot_ml
+echo $CONDA_PREFIX
+</code>
+
