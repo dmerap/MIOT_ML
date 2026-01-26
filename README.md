@@ -5,9 +5,10 @@ Repositorio para las prácticas de la materia de Aprendizaje Automático asociad
 
 # Profesorado
 * David Mera Pérez (USC, coordinador)
+* David Luaces Cachaza (USC)
 * Juan C. Burguillo (UVigo)
 * Alberto Gil Solla (UVigo)
-* Alejandro Mayorga Redondo (UDC)
+* Samuel Magaz Romero (UDC)
 
 # Entorno de desarrollo
 Las prácticas de esta materia se desarrollarán a través de Notebooks. Para ejecutarlas, necesitarás instalar Python, un servidor de Notebooks (por ejemplo, Jupyter) y todos los paquetes requeridos para cada una de las unidades prácticas. Hay diferentes opciones para poder desarrollar los trabajos (podéis emplear la que consideréis más apropiada). En este manual os damos varias alternativas:
@@ -107,7 +108,7 @@ Los paquetes requeridos para las prácticas son:
 - numpy
 - ipympl
 - ipywidgets
-- gymnasium
+- gymnasium * *ver nota*
 
 **Nota**: la versión del paquete de *gymnasium* disponible en el repositorio de conda es algo antigua. Para descargar la última versión podéis emplear `pip`. Si ejecutáis `pip` directamente estaréis instalando el paquete a nivel de sistema, lo que queremos evitar. Para usar `pip`dentro del entorno virtual, es necesario ejecutar un comando `pip` local que se instala, en una subcarpeta, al crear el entorno:
 <code>
